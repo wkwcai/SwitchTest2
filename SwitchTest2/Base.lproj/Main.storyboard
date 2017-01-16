@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="landscape">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,486 +18,486 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9GB-bW-Hzn">
-                                <rect key="frame" x="5" y="5" width="726" height="404"/>
+                                <rect key="frame" x="5" y="5" width="657" height="365"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gtQ-gJ-Xju">
-                                        <rect key="frame" x="0.0" y="0.0" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fp4-mA-PEG">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fp4-mA-PEG" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RFD-5w-K6t">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RFD-5w-K6t" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Bd-5p-hCL">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Bd-5p-hCL" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-y0-Y9B">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-y0-Y9B" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHe-FV-ycU">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHe-FV-ycU" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-PH-KF2">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-PH-KF2" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3g-vF-l2W">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3g-vF-l2W" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rcq-a9-vOY">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rcq-a9-vOY" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="siD-nj-dkk">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="siD-nj-dkk" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="j5C-k9-KVx">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="j5C-k9-KVx" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cwc-Ch-hlS">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cwc-Ch-hlS" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="78I-va-gnW">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="78I-va-gnW" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="78o-bI-77f">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="78o-bI-77f" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0S-rS-RYQ">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0S-rS-RYQ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Av-RL-MCg">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Av-RL-MCg" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngo-aR-KwL">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngo-aR-KwL" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4ou-0A-npi">
-                                        <rect key="frame" x="0.0" y="46" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="41.5" width="657" height="32"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="wPj-fW-mcp">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="wPj-fW-mcp" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OWX-PT-lp5">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OWX-PT-lp5" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="J7o-OR-BdL">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="J7o-OR-BdL" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="wo9-GU-c05">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="wo9-GU-c05" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="BXI-lB-D9a">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="BXI-lB-D9a" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kCL-5D-3H8">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kCL-5D-3H8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RoP-dU-6jp">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RoP-dU-6jp" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="HMq-a8-7h0">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="HMq-a8-7h0" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="fwO-Cx-OBr">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="fwO-Cx-OBr" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bXH-Yd-ssa">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bXH-Yd-ssa" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Xp-Yn-YSm">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Xp-Yn-YSm" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="HbP-NO-fPA">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="HbP-NO-fPA" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMS-OA-nQ5">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMS-OA-nQ5" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3m-JZ-5D5">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3m-JZ-5D5" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-T4-84s">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-T4-84s" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bWV-DH-YrU">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bWV-DH-YrU" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="33d-Z9-ugZ">
-                                        <rect key="frame" x="0.0" y="92" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="83.5" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8OU-n1-9JG">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8OU-n1-9JG" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dEt-gG-rMF">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dEt-gG-rMF" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="uOK-ZV-sSl">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="uOK-ZV-sSl" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XpC-2J-jNa">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XpC-2J-jNa" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pe4-BX-h5k">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pe4-BX-h5k" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lVw-KA-biw">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lVw-KA-biw" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-cw-2xE">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-cw-2xE" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LdX-9B-O71">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LdX-9B-O71" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="snK-CC-4Gy">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="snK-CC-4Gy" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dht-JI-PA8">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dht-JI-PA8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="X9w-G9-vZz">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="X9w-G9-vZz" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="cuS-e7-gfj">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="cuS-e7-gfj" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="qzN-JD-hfE">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="qzN-JD-hfE" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCF-hO-AYm">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="oCF-hO-AYm" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uaf-dj-HkB">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uaf-dj-HkB" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="m83-c1-zbM">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="m83-c1-zbM" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="dsh-5C-hfF">
-                                        <rect key="frame" x="0.0" y="138" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="125" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mdt-LZ-Zrg">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mdt-LZ-Zrg" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Qw-dG-7EJ">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Qw-dG-7EJ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8qH-L7-Sz6">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="8qH-L7-Sz6" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pjf-P1-3Rf">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pjf-P1-3Rf" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dtR-Ea-SQu">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dtR-Ea-SQu" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-tN-rCW">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-tN-rCW" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yBh-IS-KRu">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yBh-IS-KRu" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="evq-UG-OoX">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="evq-UG-OoX" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="gsa-cA-ISd">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="gsa-cA-ISd" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7k3-iU-1CM">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7k3-iU-1CM" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="AEK-pa-hzN">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="AEK-pa-hzN" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kMX-bz-s50">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kMX-bz-s50" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LPN-Dw-KLr">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LPN-Dw-KLr" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5PQ-Au-Tek">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="5PQ-Au-Tek" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="AuU-2F-UUn">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="AuU-2F-UUn" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yfC-l5-ka8">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yfC-l5-ka8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FfP-Uw-4FK">
-                                        <rect key="frame" x="0.0" y="184" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="166.5" width="657" height="32"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vKI-S4-DOD">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vKI-S4-DOD" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybm-sY-aUy">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybm-sY-aUy" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPt-Za-Lkc">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPt-Za-Lkc" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3v-KM-2l8">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3v-KM-2l8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-ws-tkA">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-ws-tkA" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="h5S-hc-Dr1">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="h5S-hc-Dr1" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jfg-8L-O0l">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jfg-8L-O0l" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFk-4e-R9Q">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFk-4e-R9Q" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="4RY-kM-edV">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="4RY-kM-edV" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="zHZ-Hc-TbL">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="zHZ-Hc-TbL" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hh6-wK-l1d">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hh6-wK-l1d" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-pf-lvU">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ugc-pf-lvU" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="n5n-fL-Ytv">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="n5n-fL-Ytv" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-mJ-25L">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-mJ-25L" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZcC-1C-wBm">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZcC-1C-wBm" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="1dP-bB-hyt">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="1dP-bB-hyt" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="50d-wo-Cua">
-                                        <rect key="frame" x="0.0" y="230" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="208.5" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="KEG-Tz-oLA">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="KEG-Tz-oLA" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="t0U-hN-8TV">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="t0U-hN-8TV" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ert-W4-eWy">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ert-W4-eWy" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hwX-c1-syX">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hwX-c1-syX" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-xn-CfB">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-xn-CfB" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-Xa-eOp">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-Xa-eOp" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDx-el-dtQ">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDx-el-dtQ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="om6-iR-qu4">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="om6-iR-qu4" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="w13-WY-Aov">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="w13-WY-Aov" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="z6f-Im-HzJ">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="z6f-Im-HzJ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rkT-aA-Pg1">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rkT-aA-Pg1" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-yx-IN7">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-yx-IN7" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OKb-mC-qLX">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OKb-mC-qLX" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="UXr-gI-dmO">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="UXr-gI-dmO" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-pr-Q6C">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-pr-Q6C" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yfb-x9-BGR">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="yfb-x9-BGR" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="STW-iz-BPM">
-                                        <rect key="frame" x="0.0" y="276" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="250" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-dU-MR8">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-dU-MR8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="1nI-9b-mdu">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="1nI-9b-mdu" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iv2-cb-uUw">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iv2-cb-uUw" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="GXf-Fn-Es7">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="GXf-Fn-Es7" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="s3d-kg-Y6K">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="s3d-kg-Y6K" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="UlP-O4-xef">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="UlP-O4-xef" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7fy-U6-aRQ">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7fy-U6-aRQ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-f5-uwe">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-f5-uwe" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hNF-6j-HMW">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hNF-6j-HMW" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUE-pc-YBg">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUE-pc-YBg" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmB-mq-rcN">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmB-mq-rcN" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qE-LX-OQz">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qE-LX-OQz" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="CH6-61-XBo">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="CH6-61-XBo" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vtj-Q7-Ktm">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vtj-Q7-Ktm" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="BYb-V7-xdY">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="BYb-V7-xdY" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-F3-apF">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-F3-apF" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="S3J-Q2-Lka">
-                                        <rect key="frame" x="0.0" y="322" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="291.5" width="657" height="32"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zro-ep-Ijh">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zro-ep-Ijh" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="10y-So-4r1">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="10y-So-4r1" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="NhR-FC-32A">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="NhR-FC-32A" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hfb-pf-XPu">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hfb-pf-XPu" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPp-Ma-VRq">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPp-Ma-VRq" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="6f9-dS-u2C">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="6f9-dS-u2C" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cyj-7Q-V6Y">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cyj-7Q-V6Y" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="G74-Oq-qaY">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="G74-Oq-qaY" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0gb-xr-EOF">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0gb-xr-EOF" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="DTC-dN-Ztc">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="DTC-dN-Ztc" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pKm-Oq-tCM">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="pKm-Oq-tCM" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0g0-DW-1jf">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0g0-DW-1jf" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1O-Cq-HMl">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1O-Cq-HMl" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LYc-u8-RuE">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LYc-u8-RuE" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wvg-xI-pEn">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wvg-xI-pEn" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ls7-ER-P09">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ls7-ER-P09" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R7Z-rn-EFw">
-                                        <rect key="frame" x="0.0" y="368" width="726" height="36"/>
+                                        <rect key="frame" x="0.0" y="333.5" width="657" height="31.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="sRO-Ax-P6S">
-                                                <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="sRO-Ax-P6S" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="SRu-5b-2CZ">
-                                                <rect key="frame" x="45.666666666666671" y="0.0" width="40.666666666666671" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="SRu-5b-2CZ" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="PvG-PR-Ti9">
-                                                <rect key="frame" x="91.333333333333314" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="PvG-PR-Ti9" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="83" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="qbU-SN-g4d">
-                                                <rect key="frame" x="137" y="0.0" width="40.666666666666657" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="qbU-SN-g4d" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="124" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="MKv-aJ-73g">
-                                                <rect key="frame" x="182.66666666666666" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="MKv-aJ-73g" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="165.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4a-yF-j6q">
-                                                <rect key="frame" x="228.33333333333337" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4a-yF-j6q" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="207" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lAm-uW-uW9">
-                                                <rect key="frame" x="274" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="lAm-uW-uW9" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="248.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ph1-7M-6Md">
-                                                <rect key="frame" x="319.66666666666669" y="0.0" width="41" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ph1-7M-6Md" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="289.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="TOR-Qt-H5J">
-                                                <rect key="frame" x="365.66666666666669" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="TOR-Qt-H5J" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="331" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3Y-NC-uy1">
-                                                <rect key="frame" x="411.33333333333326" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3Y-NC-uy1" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="372.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="peY-M2-uNg">
-                                                <rect key="frame" x="457" y="0.0" width="40.666666666666686" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="peY-M2-uNg" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="414" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-Dq-fOP">
-                                                <rect key="frame" x="502.66666666666663" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-Dq-fOP" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="455" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="k2g-ik-aJU">
-                                                <rect key="frame" x="548.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="k2g-ik-aJU" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="496.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vel-vW-CGk">
-                                                <rect key="frame" x="594" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vel-vW-CGk" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="538" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="28Y-SG-IJd">
-                                                <rect key="frame" x="639.66666666666663" y="0.0" width="40.666666666666742" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="28Y-SG-IJd" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="579.5" y="0.0" width="36" height="31.5"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OXx-Mj-eiE">
-                                                <rect key="frame" x="685.33333333333348" y="0.0" width="40.666666666666629" height="36"/>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="OXx-Mj-eiE" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                                <rect key="frame" x="620.5" y="0.0" width="36.5" height="31.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -506,10 +506,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9GB-bW-Hzn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="EOc-T2-Wxt"/>
+                            <constraint firstItem="9GB-bW-Hzn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="Fld-oH-eew"/>
                             <constraint firstAttribute="trailing" secondItem="9GB-bW-Hzn" secondAttribute="trailing" constant="5" id="SFX-V9-ylZ"/>
                             <constraint firstItem="9GB-bW-Hzn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="g0Z-cf-YBz"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9GB-bW-Hzn" secondAttribute="bottom" constant="5" id="h55-70-7YQ"/>
+                            <constraint firstAttribute="bottom" secondItem="9GB-bW-Hzn" secondAttribute="bottom" constant="5" id="wN3-g8-dJh"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

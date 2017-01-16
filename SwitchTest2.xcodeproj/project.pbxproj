@@ -13,6 +13,8 @@
 		E33E638E1E2CD635003E5875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E638D1E2CD635003E5875 /* Assets.xcassets */; };
 		E33E63911E2CD635003E5875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E638F1E2CD635003E5875 /* LaunchScreen.storyboard */; };
 		E33E63991E2CD95B003E5875 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E63981E2CD95B003E5875 /* paddle.png */; };
+		E33E639D1E2CE371003E5875 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E639C1E2CE371003E5875 /* Paddle.swift */; };
+		E33E639F1E2CE918003E5875 /* paddleRotated.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E639E1E2CE918003E5875 /* paddleRotated.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E33E63901E2CD635003E5875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33E63921E2CD635003E5875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33E63981E2CD95B003E5875 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		E33E639C1E2CE371003E5875 /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paddle.swift; path = ../Paddle.swift; sourceTree = "<group>"; };
+		E33E639E1E2CE918003E5875 /* paddleRotated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddleRotated.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 		E33E63851E2CD635003E5875 /* SwitchTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				E33E639C1E2CE371003E5875 /* Paddle.swift */,
 				E33E63981E2CD95B003E5875 /* paddle.png */,
+				E33E639E1E2CE918003E5875 /* paddleRotated.png */,
 				E33E63861E2CD635003E5875 /* AppDelegate.swift */,
 				E33E63881E2CD635003E5875 /* ViewController.swift */,
 				E33E638A1E2CD635003E5875 /* Main.storyboard */,
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E639F1E2CE918003E5875 /* paddleRotated.png in Resources */,
 				E33E63911E2CD635003E5875 /* LaunchScreen.storyboard in Resources */,
 				E33E638E1E2CD635003E5875 /* Assets.xcassets in Resources */,
 				E33E638C1E2CD635003E5875 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E639D1E2CE371003E5875 /* Paddle.swift in Sources */,
 				E33E63891E2CD635003E5875 /* ViewController.swift in Sources */,
 				E33E63871E2CD635003E5875 /* AppDelegate.swift in Sources */,
 			);
