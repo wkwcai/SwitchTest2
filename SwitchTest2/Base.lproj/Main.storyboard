@@ -248,7 +248,7 @@
                                             <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPt-Za-Lkc" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="83" y="0.0" width="36" height="32"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3v-KM-2l8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O3v-KM-2l8" customClass="Placeholder" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="124" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gem.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-ws-tkA" customClass="Gem" customModule="SwitchTest2" customModuleProvider="target">
