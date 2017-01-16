@@ -239,19 +239,19 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FfP-Uw-4FK">
                                         <rect key="frame" x="0.0" y="166.5" width="657" height="32"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vKI-S4-DOD" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="vKI-S4-DOD" customClass="Ball" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybm-sY-aUy" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="41.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPt-Za-Lkc" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                            <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPt-Za-Lkc" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="83" y="0.0" width="36" height="32"/>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3v-KM-2l8" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="124" y="0.0" width="36.5" height="32"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-ws-tkA" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gem.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-ws-tkA" customClass="Gem" customModule="SwitchTest2" customModuleProvider="target">
                                                 <rect key="frame" x="165.5" y="0.0" width="36.5" height="32"/>
                                             </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="h5S-hc-Dr1" customClass="Paddle" customModule="SwitchTest2" customModuleProvider="target">
@@ -519,6 +519,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ball.png" width="41" height="41"/>
+        <image name="gem.png" width="41" height="41"/>
         <image name="paddle.png" width="41" height="41"/>
     </resources>
 </document>

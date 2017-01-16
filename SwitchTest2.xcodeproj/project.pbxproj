@@ -15,6 +15,10 @@
 		E33E63991E2CD95B003E5875 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E63981E2CD95B003E5875 /* paddle.png */; };
 		E33E639D1E2CE371003E5875 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E639C1E2CE371003E5875 /* Paddle.swift */; };
 		E33E639F1E2CE918003E5875 /* paddleRotated.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E639E1E2CE918003E5875 /* paddleRotated.png */; };
+		E33E63A31E2D054D003E5875 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E63A21E2D054D003E5875 /* Ball.swift */; };
+		E33E63A71E2D0CF8003E5875 /* Gem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E63A61E2D0CF8003E5875 /* Gem.swift */; };
+		E33E63AA1E2D1662003E5875 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E63A81E2D1662003E5875 /* ball.png */; };
+		E33E63AB1E2D1662003E5875 /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = E33E63A91E2D1662003E5875 /* gem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		E33E63981E2CD95B003E5875 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
 		E33E639C1E2CE371003E5875 /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paddle.swift; path = ../Paddle.swift; sourceTree = "<group>"; };
 		E33E639E1E2CE918003E5875 /* paddleRotated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddleRotated.png; sourceTree = "<group>"; };
+		E33E63A21E2D054D003E5875 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		E33E63A61E2D0CF8003E5875 /* Gem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gem.swift; sourceTree = "<group>"; };
+		E33E63A81E2D1662003E5875 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		E33E63A91E2D1662003E5875 /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				E33E639C1E2CE371003E5875 /* Paddle.swift */,
+				E33E63A21E2D054D003E5875 /* Ball.swift */,
+				E33E63A61E2D0CF8003E5875 /* Gem.swift */,
+				E33E63A81E2D1662003E5875 /* ball.png */,
+				E33E63A91E2D1662003E5875 /* gem.png */,
 				E33E63981E2CD95B003E5875 /* paddle.png */,
 				E33E639E1E2CE918003E5875 /* paddleRotated.png */,
 				E33E63861E2CD635003E5875 /* AppDelegate.swift */,
@@ -134,7 +146,9 @@
 			files = (
 				E33E639F1E2CE918003E5875 /* paddleRotated.png in Resources */,
 				E33E63911E2CD635003E5875 /* LaunchScreen.storyboard in Resources */,
+				E33E63AA1E2D1662003E5875 /* ball.png in Resources */,
 				E33E638E1E2CD635003E5875 /* Assets.xcassets in Resources */,
+				E33E63AB1E2D1662003E5875 /* gem.png in Resources */,
 				E33E638C1E2CD635003E5875 /* Main.storyboard in Resources */,
 				E33E63991E2CD95B003E5875 /* paddle.png in Resources */,
 			);
@@ -147,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E63A31E2D054D003E5875 /* Ball.swift in Sources */,
 				E33E639D1E2CE371003E5875 /* Paddle.swift in Sources */,
 				E33E63891E2CD635003E5875 /* ViewController.swift in Sources */,
 				E33E63871E2CD635003E5875 /* AppDelegate.swift in Sources */,
+				E33E63A71E2D0CF8003E5875 /* Gem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
